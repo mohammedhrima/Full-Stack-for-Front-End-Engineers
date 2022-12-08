@@ -1,0 +1,77 @@
+- Introduction
+
+timing:
+19:00 -> 03:00 (Web)
+03:00 -> 10:00 (cursus)
+
+Data science ?
+Embeded software ?
+
+cd : change dir
+pwd : print working directory
+
+kernel: cors of OS, talk to machine directly
+
+
+- Understanding the Internet
+
+vpn: virtual private network (intranet)
+wan: wide internetwork
+
+IP: Intrnet protocol
+
+IPv4 : contains 4 numbers
+IPv6 : contains 16 numbers
+
+TCP : Transition Control Protocol -> send request and wait for response
+UDP : User Datagram Protocole -> doesn't check that request is received
+
+ping : say hey hey hey hey
+
+DNS : Domain Name System -> check for the closest path to the server you want to connect to
+
+subdomain : it's already a different website , the benifits, is it helpfull the seperate my data in diffrent server
+	about.hrimadev.com
+	home.hrimadev.com
+	contact.hrimadev.com
+
+traceroute google.com: giv the path your request went throw to get to google server
+	it's like, sending, "I want to connect to google" , and severs are like , "ok, that server knowns, that server knows ..."
+
+ping and traceroute: run ICMP
+ICMP: Internet Control Message Protocol
+	
+Packet: like an enveloppe that contains informations
+
+Servers: it serves content 
+
+VPS: Virtual Private Server -> when you manipulate and slice (slice) your sever
+
+create ssh key:
+	cd ~/.ssh
+	ssh-keygen
+public key is to crypt data
+private key is to decript data
+
+- server setup
+dig hrimadev.com
+
+when server get request it use processor todefeine where to send the request (handling auth, affichage ...)
+proxy helps the processor and send data to afichage for example / because processor will busy
+NGINX : work as proxy -> send request to the right place
+
+Resume : domain name hit server, server replay here is the ip where want to go, ip go throw all routers and switchers, when it get to the destination, nginx guide it to page
+
+######################################################################################################################################################
+
+- node js
+domain -> IP -> Nginx (use proxy)-> Express
+
+- Process Manager: keep the process running,
+Recap:
+	domain -> IP -> Server -> Web server -> Application server
+
+
+
+
+
